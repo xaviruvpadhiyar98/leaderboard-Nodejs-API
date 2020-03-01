@@ -11,3 +11,6 @@ node server.js
 ```
 
 ###Check the test.rest api for moreinfo
+
+
+use the table leaderDummy table from leaderBoard.sql 
