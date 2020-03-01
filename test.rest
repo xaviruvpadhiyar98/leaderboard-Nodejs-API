@@ -1,0 +1,33 @@
+PUT http://localhost:3000/players/500
+Content-Type: application/json
+
+{
+    "score":200
+}
+
+###LEADERBOARD of particular subject
+GET http://localhost:3000/leaderBoard/python
+
+###LEADERBOARD of All 
+GET http://localhost:3000/leaderBoard/
+
+###
+PUT http://localhost:3000/players/500
+Content-Type: application/json
+
+{
+    "score":200
+}
+
+###GET a Single user
+GET http://localhost:3000/players/1
+
+
+
+###Add Score not Update user
+PUT http://localhost:3000/leaderBoard/1
+Content-Type: application/json
+
+{
+    "score":20
+}
